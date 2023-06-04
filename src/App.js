@@ -3,10 +3,12 @@ import React from "react";
 import { ShowApp } from "./pages/cocktail/Index";
 import { ShowCase } from "./pages/review/Index";
 import { Apex } from "./pages/tour"; 
+import {NewApp } from './pages/cart/Index'
 function App() {
   return (
     <>
       <ShowApp/>
+      <NewApp/>
       <ShowCase/>
       <Apex/>
     </>
